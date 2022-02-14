@@ -1,0 +1,29 @@
+{
+    "name": "booosta/colorpicker",
+    "description": "Color picker for Booosta PHP Framework",
+    "license": "LGPL-3.0-only",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "booosta\\colorpicker\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Peter Buzanits",
+            "email": "peter@icb.at"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0.0",
+        "booosta/ui": "dev-master",
+        "npm-asset/spectrum-colorpicker": "^1.8"
+    }
+}
