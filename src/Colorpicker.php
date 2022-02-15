@@ -1,6 +1,9 @@
 <?php
 namespace booosta\colorpicker;
 
+use \booosta\Framework as b;
+b::init_module('colorpicker');
+
 class Colorpicker extends \booosta\ui\UI
 {
   use moduletrait_colorpicker;
