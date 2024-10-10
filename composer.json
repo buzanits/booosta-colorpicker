@@ -23,7 +23,7 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=8.0.0",
-        "booosta/ui": "dev-master",
+        "booosta/ui": "^4.0",
         "npm-asset/spectrum-colorpicker": "^1.8"
     }
 }
